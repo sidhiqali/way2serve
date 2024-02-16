@@ -31,10 +31,7 @@ function App() {
       setUser(user)
     })
     setLoading(false)
-  }, []);
-
-  
-  
+  }, []);  
   const handleOffline = () => {
     if (!window.navigator.onLine) {
       setLoading(true);
