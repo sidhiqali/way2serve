@@ -96,14 +96,6 @@ function Login() {
           <div class="TITLE">
             Sign in
           </div>
-          {/* <svg
-            width="100px"
-            height="100px"
-            viewBox="0 0 1024 1024"
-            data-aut-id="icon"
-          >
-            <path></path>
-          </svg> */}
         </div>
         <form onSubmit={handleLogin} className="login-form">
           <div className="form-controls-login">
