@@ -10,7 +10,6 @@ function PostFilterPage() {
 			<PostFilter/>
 			<Footer/>
 		</>
-	)
-}
+	)}
 
 export default PostFilterPage
