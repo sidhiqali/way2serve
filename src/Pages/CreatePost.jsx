@@ -9,7 +9,6 @@ return (
 	< Create /> 
 	</div>
 ) 
-
 }
 
 export default CreatePost;
