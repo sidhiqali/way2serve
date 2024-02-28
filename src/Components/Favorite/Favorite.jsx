@@ -34,7 +34,7 @@ function Favorite() {
 				}).catch(err => {
 					setCloseError(true)
 	        		setError(err.message)
-				})
+			})
 			})
 			task.then(() => setFavorites(posts))
 		}).catch(err => {
