@@ -44,7 +44,6 @@ function Favorite() {
 		})
 	},[])
 	
-
 	function removeFavorite (docid,index) {
 		firebasedb.firestore().collection('favorites').doc(docid).delete().then(() => {
 			if (index > -1) {
