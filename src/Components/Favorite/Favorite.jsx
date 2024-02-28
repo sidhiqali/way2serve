@@ -8,7 +8,6 @@ import './favorite.css'
 
 
 function Favorite() {
-
 	const {firebasedb} = useContext(fireBaseContext)
 	const {User} = useContext(AuthContext)
 	const {setPost} = useContext(PostContext)
