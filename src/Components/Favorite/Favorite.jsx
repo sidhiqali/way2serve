@@ -57,7 +57,6 @@ function Favorite() {
 			}
 		})
 	}
-
 	return (
 		<>
 			{loading && <Preloader sticky/>}
