@@ -26,7 +26,7 @@ function Favorite() {
 			snapshot.forEach(doc => {
 				docs.push(doc.id)
 				setHasFavorites(true)
-			})	
+		})	
 		}).then(() => {
 			docs.forEach(doc => {
 				task = firebasedb.firestore().collection('posts').doc(doc).get().then((shot) => {
