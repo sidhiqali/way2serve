@@ -60,8 +60,7 @@ function EditPost() {
         .collection('posts')
         .doc(postData && postData.docid)
         .update({
-          title: title,
-        })
+          title: title })
         .catch((err) => {
           setCloseError(true);
           setError(err.message);
