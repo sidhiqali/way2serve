@@ -172,7 +172,7 @@ function EditPost() {
                   className={
                     titleLengthError
                       ? 'create-ad-set-title-input create-ad-form-input-error'
-                      : 'create-ad-set-title-input'
+                    : 'create-ad-set-title-input'
                   }
                   type='text'
                   required
@@ -296,7 +296,6 @@ function EditPost() {
           </form>
         </div>
       </div>
-      {/*footer*/}
       <div className='create-ad-footer'>
         <div>Sitemap</div>
         <div>Free Classifieds in India. © 2006-2021 OLX</div>
