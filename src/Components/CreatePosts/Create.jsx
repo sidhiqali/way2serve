@@ -14,7 +14,6 @@ function Create() {
   const [titleLengthError, setTitleLengthError] = useState(false);
   const [jobs, setJobs] = useState(false);
   const [imgFiles, setImgFiles] = useState([]);
-  //form input states
   const [JobSalary, setJobSalary] = useState();
   const [JobPosition, setJobPosition] = useState();
   const [adCategory, setAdCategory] = useState();
