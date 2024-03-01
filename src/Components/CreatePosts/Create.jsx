@@ -24,7 +24,6 @@ function Create() {
   const [adPhoneInput, setAdPhoneInput] = useState();
   const [adJobSalary, setAdJobSalary] = useState();
   const [AllImages, setAllImages] = useState([]);
-  // errors,after uploads and progress
   const [progress, setProgress] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState();
