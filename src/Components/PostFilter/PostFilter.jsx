@@ -153,7 +153,6 @@ export default function PostFilter() {
 
 	  	}
   	}	
-
 	function handleFavorite (docid) {
 	    firebasedb.firestore().collection('favorites').doc(docid).set({
 	      id:User && User.uid
