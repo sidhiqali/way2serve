@@ -65,7 +65,6 @@ export default function PostFilter() {
 	    return () => db; 
 	},[])
 	useEffect(() => {
-		
 		filterContent()
 		filterSearchBar()
 	},[categoryFilter,searchResults])
