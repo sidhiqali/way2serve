@@ -64,7 +64,6 @@ export default function PostFilter() {
 	    setLoading(false)	    
 	    return () => db; 
 	},[])
-
 	useEffect(() => {
 		
 		filterContent()
