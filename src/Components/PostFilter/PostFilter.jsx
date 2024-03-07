@@ -7,8 +7,6 @@ import {SearchBarContext} from '../../store/FilterContexts';
 import { PostContext } from '../../store/PostContext';
 import {toRupees} from '../../usefullFunctions/indianRupeeFormat';
 import Button from '@mui/material/Button';
-
-
 export default function PostFilter() {
 	const [minVal,setMinVal] = useState(null)
 	const [maxVal,setMaxVal] = useState(null)
@@ -44,7 +42,6 @@ export default function PostFilter() {
     'security',
     'gardner',     
 	]
-
 
 	useEffect(() => {
 		setLoading(true)	
