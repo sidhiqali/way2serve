@@ -98,7 +98,6 @@ export default function PostFilter() {
 	      }
 	    }    
   	}
-
   	function filterLocation () {
   		if (locationVal === '') {
   			setPosts(data)
