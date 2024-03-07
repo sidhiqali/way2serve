@@ -82,7 +82,6 @@ export default function PostFilter() {
 		})
 		e.currentTarget.checked = true
 	}
-	
 	function filterContent () {
 	    if(categoryFilter) {
 	      let newData = data.filter(post => {
