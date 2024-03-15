@@ -31,7 +31,6 @@ function EditProfile() {
     }, 0); 
     window.onbeforeunload = null;}
 
-
   useEffect(() => {
     if (!User) {
       setLoading(true);
