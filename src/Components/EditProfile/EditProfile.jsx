@@ -159,8 +159,6 @@ function EditProfile() {
         setError(err.message)
       })
     }
-    
- 
   }
 
   return (
