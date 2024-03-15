@@ -79,7 +79,6 @@ function EditProfile() {
     })
   }
   function  updateProfileInfo () {
-    
     if( name !== currentUser.displayName && name){
           setLoading(true)
           currentUser.updateProfile({displayName:name}).then(() => {
