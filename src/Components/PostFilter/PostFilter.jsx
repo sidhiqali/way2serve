@@ -135,9 +135,6 @@ export default function PostFilter() {
 	    	}
 	    }
   	}
-
-  	
-
   	function filterSearchBar() {  	
 	  	if(searchBarValue) {	  		
 			if (searchResults.length !== 0) {
