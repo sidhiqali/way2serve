@@ -210,7 +210,6 @@ export default function PostFilter() {
 						</div>
 					</div>
 				</div>
-			
 			</div>
 			<div style={{width:'100%'}}>	
 				{searchBarValue && <h2 className='post-filter-h2-title'>You Searched For "{searchBarValue && searchBarValue}"</h2>}
