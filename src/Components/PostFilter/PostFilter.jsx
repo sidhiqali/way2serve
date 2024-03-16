@@ -143,8 +143,7 @@ export default function PostFilter() {
 				setCloseError(true)
 		  		setError('Sorry 😪😪 ! Not Found any results for your Filters')	     
 				setPosts(data)	    		
-			}}
-  	}	
+			}}}	
 	function handleFavorite (docid) {
 	    firebasedb.firestore().collection('favorites').doc(docid).set({
 	      id:User && User.uid
