@@ -180,7 +180,7 @@ export default function PostFilter() {
 									onChange={handleCheckbox}/>
 									{value}
 								</label>
-							)
+						)
 						})
 					}
 					</div>
