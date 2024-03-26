@@ -182,7 +182,7 @@ export default function PostFilter() {
 								</label>
 							)
 						})
-						}
+					}
 					</div>
 				</div>
 				<div className="post-filter-location">
