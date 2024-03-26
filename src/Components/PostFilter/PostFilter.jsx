@@ -95,8 +95,7 @@ export default function PostFilter() {
   	}
   	function filterLocation () {
   		if (locationVal === '') {
-  			setPosts(data)
-  		}
+  			setPosts(data)}
 		if (locationVal) {
 			if (categoryFilter === "All") {setSearchBarValue(null)}
 	    	let location = data.filter(post => {
