@@ -74,7 +74,7 @@ export default function PostFilter() {
 				inp.checked = false
 				setSearchBarValue(null)
 				setSearchResults([])
-			}
+		}
 		})
 		e.currentTarget.checked = true
 	}
