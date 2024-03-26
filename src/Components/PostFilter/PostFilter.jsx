@@ -42,14 +42,12 @@ export default function PostFilter() {
     'security',
     'gardner',     
 	]
-
 	useEffect(() => {
 		setLoading(true)	
 	 	let db = firebasedb.firestore().collection('posts').get().then(snapshot => {
 	      const PostsData = snapshot.docs.map(post => {
 	       return {...post.data(),docid:post.id}
 	      })
-
 	      setData(PostsData)
 	      if (searchBarValue&&searchResults.length !== 0 ){
 	      	filterSearchBar()
